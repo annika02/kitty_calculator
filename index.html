@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<style>
+    body{
+        background :url(hello-kitty-4538x3025-9983.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+    
+        background-color: rgb(250, 250, 235);
+        text-align:start;
+        display: inline;
+        margin: 45%;
+
+    }
+    .card{
+        margin: 0% auto;
+        margin-top: 10px;
+        max-width: 360px;
+        border: 2px solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: start;
+        background-color: white;
+            
+    }
+    /* .cal{
+        
+    } */
+
+    #result{
+        margin: 0%;
+        padding: 0%;
+        height: 80px;
+        width: 100%;
+        text-align: right;
+        font-size: 30px;
+
+    }
+    #btn{
+        width: 87px;
+        height: 70px;
+        background-color: rgb(255, 128, 215);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    #btn1{
+        height: 70px;
+        width: 87px;
+        background-color: rgb(151, 1, 103);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+    }
+    #btn2{
+        height: 70px;
+        width: 87px;
+        background-color:  rgba(48, 2, 26, 0.997);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+    }
+    #btn:hover{
+            background-color: orchid;
+        }
+    #btn1:hover{
+            background-color: rgb(173, 15, 152);
+        }
+    #btn2:hover{
+            background-color: rgb(237, 138, 219);
+        }
+    .card:hover{
+        box-shadow: 0 8px 16px 0 rgba(245, 3, 164, 0.2);
+    }
+</style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="card">
+        <div class="front">
+            <input type="text" id="result"><br>
+        </div>
+        
+        <div class="cal">
+            <div>
+                <input type="button" id="btn" value="C">
+                <input type="button" id="btn" value="+/-">
+                <input type="button" id="btn" value="%">
+                <input type="button" id="btn1" value="/">
+            </div>
+            <div>
+                <input type="button" id="btn" value="7">
+                <input type="button" id="btn" value="8">
+                <input type="button" id="btn" value="9">
+                <input type="button" id="btn1" value="x">
+            </div>
+            <div>
+                <input type="button" id="btn" value="4">
+                <input type="button" id="btn" value="5">
+                <input type="button" id="btn" value="6">
+                <input type="button" id="btn1" value="-">
+            </div>
+            <div>
+                <input type="button" id="btn" value="1">
+                <input type="button" id="btn" value="2">
+                <input type="button" id="btn" value="3">
+                <input type="button" id="btn1" value="+">
+            </div>
+            <div>
+                <input type="button" id="btn" value="0">
+                <input type="button" id="btn" value=".">
+                <input type="button" id="btn" value="DEL">
+                <input type="button" id="btn2" value="=">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
